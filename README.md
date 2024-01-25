@@ -1,7 +1,11 @@
 # fibonacci_sequence
 **About the project:**
 
-This is a quick C++ demo, with two seperate implementations that can calculate a given value. One implementation utilises recursion, the other utilises a loop.
+This is a quick C++ demo, with two separate implementations that can calculate a given number in the Fibonacci Sequence. One implementation utilises recursion, the other utilises a loop.
+
+Both functions operate under the logic that the sequence begins as follows: 0, 1, 1, 2, 3, 5, ...
+
+Therefore the fourth value is 3, the fifth value is 5 etc.
 
 All of the original source code is located within src, these files were all compiled together to create "fibonacci_sequence.exe"
 
@@ -17,7 +21,9 @@ To execute the program on a windows machine; Double click "fibonacci_sequence.ex
 
 **Proposed improvements / revisions:**
 
-...
+•	Implementing an error for exceeding the datatype size for exceedingly large calculations (Note, this has been implemented for the "loop" method, but not the "recursive" method as it is challenging to implement a check without a large performance impact on an already suboptimal method)
+
+•	Addition of a loading / progress bar would be helpful for exceedingly large calculations (Primarily for the recursive method as it can take excessive amounts of time)
 
 **Note:**
 
